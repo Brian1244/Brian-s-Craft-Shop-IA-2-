@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice | Brian's Craft Shop</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="Brian'scraftshop.png" alt="Brian's craft shop Logo" class="logo">
+    <h1>Brian's Craft Shop</h1>
+   <nav>
+    <ul>
+        <li><a href="index.html"><span class="material-icons">home</span> home</a></li>
+        <li><a href="about.html"><span class="material-icons">info</span> About</a></li>
+        <li><a href="login.html"><span class="material-icons">login</span> Login</a></li>
+        <li><a href="register.html"><span class="material-icons">person_add</span> Register</a></li>
+        <li><a href="cart.html"><span class="material-icons">shopping_cart</span> Cart</a></li>
+        <li><a href="checkout.html"><span class="material-icons">payment</span> Checkout</a></li>
+        <li><a href="invoice.html"><span class="material-icons">receipt_long</span> Invoice</a></li>
+        
+        
+    </ul>
+</nav>
+</header>
+
+<main>
+    <h2>Invoice</h2>
+    
+    <div id="invoice-details">
+        <p id="invoice-date"></p>
+
+        
+        <table id="invoice-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+        
+        <div id="invoice-totals">
+            <p id="subtotal"></p>
+            <p id="tax"></p>
+            <p id="total"></p>
+        </div>
+    </div>
+
+    
+    <div class="buttons">
+        <button id="print-invoice" class="btn">Print Invoice</button>
+    </div>
+</main>
+
+
+<footer>
+    <p>&copy; 2025 Brian's Craft Shop</p>
+    
+    <button id="logout-btn" class="btn">Logout</button>
+</footer>
+    <script src="invoice.js"></script>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
